@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cold Drinks Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Ali Cold Drinks</h1>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <!-- Sales Chart -->
+        <div class="chart-container">
+            <canvas id="sales-chart"></canvas>
+        </div>
+
+        <!-- Inventory Table -->
+        <table id="inventory-table">
+            <thead>
+                <tr>
+                    <th>Drink Name</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody id="inventory-data">
+                <!-- Data will be populated here -->
+            </tbody>
+        </table>
+
+        <!-- Orders List -->
+        <ul id="orders-list">
+            <!-- Data will be populated here -->
+        </ul>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Cold Drinks Business</p>
+    </footer>
+
+    <script src="java.js"></script>
+</body>
+
+</html>
